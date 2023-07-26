@@ -1,0 +1,244 @@
+.hov:hover {
+  background-color: #eee;
+  border-radius: 10px;
+}
+
+.hov-2:hover {
+  background-color: #e4e6e9;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  background-color: #f0f2f5;
+  color: #65676b;
+}
+body header {
+  background-color: #fff;
+}
+body header .face_center li {
+  width: 20%;
+  padding: 6px;
+  margin-top: 7px;
+}
+body header .face_center li svg {
+  color: #65676b;
+}
+body header ul {
+  list-style: none;
+}
+body header ul .svg-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #eee;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+
+.container-fluid .navbar-collapse .shortcuts {
+  font-size: 17px;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.4705882353);
+}
+.container-fluid .navbar-collapse .list ul {
+  list-style: none;
+}
+.container-fluid .navbar-collapse .list ul li .Policy a {
+  color: #65676b;
+  font-size: 11.5px;
+}
+.container-fluid .navbar-collapse .list ul li .Policy a svg {
+  color: #65676b;
+  font-size: 11.5px;
+}
+.container-fluid .navbar-collapse .list ul li .seen_more {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #e4e6eb;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+.container-fluid .navbar-collapse .list ul li a {
+  color: black;
+  font-weight: 600;
+  text-decoration: none;
+  font-size: 14px;
+}
+.container-fluid .navbar-collapse .list ul li a img {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+}
+.container-fluid .navbar-collapse .list ul li a .img {
+  border-radius: 10px !important;
+}
+.container-fluid .navbar-collapse .list ul li a p {
+  margin: 5px 0 0 5px;
+}
+
+.ahmedElmansy {
+  background-image: url(../img/ahmedElmansy.jpg);
+}
+
+.pic {
+  background-image: url(../img/ahmed-st.jpg);
+}
+
+.Myano {
+  background-image: url(../img/myano.jpg);
+}
+
+.maj-st {
+  background-image: url(../img/elsa.jpg);
+}
+
+.Ahly {
+  background-image: url(../img/Ahly-st.jpg);
+}
+
+.Bab {
+  background-image: url(../img/BabEl-st.jpg);
+}
+
+.createStory {
+  width: 140px;
+  height: 178px;
+  background-position: 50% 50%;
+  border-radius: 10px 10px 0 0;
+  background-size: cover;
+}
+
+.createStoryName {
+  width: 140px;
+  height: 250px;
+  background-position: 50% 50%;
+  border-radius: 10px;
+  background-size: cover;
+  margin-left: 5px;
+  flex-direction: column;
+}
+.createStoryName .span-2 img {
+  margin: 10px;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  border: 4px solid #1876f2;
+  font-size: 12px;
+}
+
+.name-story {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.cre-icon svg {
+  background: #1876f2;
+  position: relative;
+  left: 48px;
+  bottom: 92px;
+  padding: 10px;
+  border: 5px solid #fff;
+  border-radius: 50%;
+  font-size: 15px;
+  color: #fff;
+}
+
+.cre-te {
+  background: #fff;
+  border-radius: 0 0 10px 10px;
+  padding: 28px 16px 12px;
+  text-align: center;
+  font-weight: 500;
+}
+
+.whats-text {
+  width: 100%;
+  border-radius: 10px;
+  border: none;
+  height: 38px;
+  background-color: #eee;
+}
+
+.sc-post {
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.14);
+  border-radius: 10px;
+}
+
+.name-post {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.h-post {
+  font-size: 11px;
+  color: #909092;
+  margin-bottom: 5px;
+}
+
+.react-1 {
+  z-index: 555;
+  position: relative;
+}
+
+.react-2 {
+  position: relative;
+  bottom: 0px;
+  right: 7px;
+}
+
+.span-react {
+  position: relative;
+  top: 2px;
+  right: 7px;
+  color: #65676b;
+  font-size: 13px;
+  margin-top: 5px;
+}
+
+.comment-c {
+  padding: 4px 12px 5px 12px;
+  background: #f0f2f5;
+  border-radius: 6px;
+}
+
+.post-share {
+  padding: 15px;
+  border: 2px solid #eee;
+  border-radius: 10px;
+}
+
+.sc-1 .img-sc-1 a img {
+  border: 3px solid #938d8d;
+}
+.sc-1 .img-sc-1 a .story {
+  border: 3px solid #938d8d;
+}
+
+.online {
+  position: relative;
+  background: #31a24c;
+  width: 8px;
+  height: 8px;
+  display: block;
+  border-radius: 50%;
+  left: 28px;
+  bottom: 9px;
+}
+
+.bord {
+  border: 3px solid #1876f2 !important;
+}
+
+@media (max-width: 990px) {
+  .on {
+    display: none;
+  }
+}/*# sourceMappingURL=facebook.css.map */
