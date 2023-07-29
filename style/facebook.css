@@ -9,6 +9,16 @@
   transition: 0.5s;
 }
 
+.hov {
+  padding-left: 9px;
+  padding-top: 5px;
+}
+
+.hov-2 {
+  padding-left: 8px;
+  padding-top: 5px;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -265,4 +275,17 @@ body header ul .svg-header {
 
 .all-search {
   background-color: #eee;
+}
+
+.dropdown-menu {
+  border-radius: 10px;
+}
+.dropdown-menu img {
+  width: 30px;
+  height: 30px;
+  margin: 5px;
+}
+
+.pad {
+  padding: 10px 35px 11px 35px;
 }/*# sourceMappingURL=facebook.css.map */
