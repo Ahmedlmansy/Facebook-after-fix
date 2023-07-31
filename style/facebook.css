@@ -288,4 +288,62 @@ body header ul .svg-header {
 
 .pad {
   padding: 10px 35px 11px 35px;
+}
+
+.cont ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.cont ul li:hover ul {
+  display: block;
+}
+.cont ul li {
+  transition: 5s;
+  display: inline-block;
+  position: relative;
+}
+.cont ul li ul {
+  width: 100%;
+  display: none;
+  position: absolute;
+  z-index: 999;
+}
+.cont ul li a {
+  display: block;
+  transition: 5s;
+  align-items: center;
+}
+
+.poo {
+  position: relative;
+  right: 62%;
+  width: 300px;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #eee;
+}
+.poo div h2 {
+  font-size: 24px;
+}
+.poo .inbox {
+  background: #e7f3ff;
+  border-radius: 20px;
+}
+.poo .img-mas {
+  width: 65px;
+  height: 65px;
+}
+.poo .img-mas img {
+  border-radius: 50%;
+}
+.poo .icon-mas i {
+  color: #65676b;
+  margin: 5px;
+}
+
+.mm {
+  color: #65676b;
+  font-size: 12px;
 }/*# sourceMappingURL=facebook.css.map */

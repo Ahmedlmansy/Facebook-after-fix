@@ -305,3 +305,70 @@ background-image: url(../img/ahmed-st.jpg);
 .pad{
         padding: 10px 35px 11px 35px;
 }
+
+.cont{
+    ul{
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        li:hover{
+            ul{
+                display: block;
+            }
+        }
+        li{ 
+            transition: 5s;
+            display: inline-block;
+            position: relative;
+            ul{
+                width: 100%;
+                display: none;
+                position: absolute;
+                z-index: 999;
+            }
+            a{
+                display: block;
+                transition: 5s;
+                align-items: center;
+            }
+        }
+    }
+}
+.poo{
+    position: relative;
+    right: 62%;
+    width: 300px;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #eee;
+
+    div{
+        h2{
+            font-size: 24px;
+        }
+    }
+
+    .inbox{
+        background : #e7f3ff;
+        border-radius: 20px;
+    }
+    .img-mas{
+        width: 65px;
+        height: 65px;
+        img{
+            border-radius: 50%;
+        }
+    }
+    .icon-mas{
+        i{
+                        color: #65676b;
+                        margin: 5px;
+        }
+        
+    }
+}
+                                        .mm {
+                                            color: #65676b;
+                                            font-size: 12px;
+                                        }
