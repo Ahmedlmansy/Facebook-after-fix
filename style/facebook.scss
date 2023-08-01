@@ -353,13 +353,7 @@ background-image: url(../img/ahmed-st.jpg);
         background : #e7f3ff;
         border-radius: 20px;
     }
-    .img-mas{
-        width: 65px;
-        height: 65px;
-        img{
-            border-radius: 50%;
-        }
-    }
+
     .icon-mas{
         i{
                         color: #65676b;
@@ -368,7 +362,26 @@ background-image: url(../img/ahmed-st.jpg);
         
     }
 }
+.name-mas{
+    font-size: 12px;
+}
                                         .mm {
                                             color: #65676b;
                                             font-size: 12px;
                                         }
+                                        .poos-not{
+                                            position: relative;
+                                            left: 40px;
+                                            bottom: 25px;
+                                        }
+
+        .img-mas {
+            width: 65px;
+            height: 65px;
+    
+            img {
+                border-radius: 50%;
+            }
+        }
+
+                                        

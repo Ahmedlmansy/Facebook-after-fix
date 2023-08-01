@@ -331,19 +331,30 @@ body header ul .svg-header {
   background: #e7f3ff;
   border-radius: 20px;
 }
-.poo .img-mas {
-  width: 65px;
-  height: 65px;
-}
-.poo .img-mas img {
-  border-radius: 50%;
-}
 .poo .icon-mas i {
   color: #65676b;
   margin: 5px;
 }
 
+.name-mas {
+  font-size: 12px;
+}
+
 .mm {
   color: #65676b;
   font-size: 12px;
+}
+
+.poos-not {
+  position: relative;
+  left: 40px;
+  bottom: 25px;
+}
+
+.img-mas {
+  width: 65px;
+  height: 65px;
+}
+.img-mas img {
+  border-radius: 50%;
 }/*# sourceMappingURL=facebook.css.map */
