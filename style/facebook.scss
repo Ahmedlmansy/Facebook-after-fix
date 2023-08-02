@@ -1,8 +1,11 @@
-// @mixin sc-post {
-//     background-color: #fff;
-//         border: 1px solid #00000045;
-//         border-radius: 10px;
-// }
+@mixin poo {
+    position: relative;
+        right: 62%;
+        
+        padding: 10px;
+        border-radius: 10px;
+        border: 1px solid #eee;
+}
 
                         .hov:hover {
                             background-color: #eee;
@@ -334,15 +337,38 @@ background-image: url(../img/ahmed-st.jpg);
         }
     }
 }
+.color{
+    font-size: 12px;
+        color: #65676b;
+}
+.border{
+    border-radius: 10px
+}
+.input-search{
+    background-color: #f0f2f5 ;
+    padding: 8px  ;
+    margin: 8px;
+    input{
+        border: none ;
+        background-color: transparent;
+        padding: 2px;
+        outline: none;
+    }
+    svg{
+        color: #000000;
+        margin-right: 5px
+        
+    }
+}
+.poo-2{
+    @include poo ;
+    width: 400px;
+    background-color: #f0f2f5;
+}
 .poo{
-    position: relative;
-    right: 62%;
+@include poo ;
     width: 300px;
     background-color: #fff;
-    padding: 10px;
-    border-radius: 10px;
-    border: 1px solid #eee;
-
     div{
         h2{
             font-size: 24px;
